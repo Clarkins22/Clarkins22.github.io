@@ -1,5 +1,10 @@
 /* General Settings */
 
+#top-ad {
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+    
+}
 html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
