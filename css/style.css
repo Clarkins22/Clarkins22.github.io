@@ -5,6 +5,7 @@
     font-family: 'Gill Sans';
     padding: 20px 1px 30px;
     font-weight:bold;
+    float:inline-start
     
 }
 html {
@@ -40,6 +41,7 @@ h2 { font-size: 28px; }
 ul {
     list-style: none;
     padding-left: 0;
+    padding-top: 5%;
     font-weight: 400;
     font-style: normal;
     margin: 0;
@@ -76,6 +78,7 @@ header {
     display: inline-block;
     color: #fff;
     font-size: 18px;
+   
 }
 
 .title-header .logo {
@@ -83,15 +86,26 @@ header {
 }
 
 .title-header .logo img {
-    vertical-align: middle;
+    vertical-align: left;
 }
 
-nav { background: chocolate; }
+.navigation-bar { background: chocolate;
+width:max-content;
+}
+
+nav li {float:left;
+background: chocolate;
+
+
+}
 
 nav li a { 
     color: #000000;
     display: inline-block;
     padding: 10px 10px;
+    background: chocolate;
+    font-weight: 200;
+    color: #fff;
 }
 
 /* End Header */
@@ -102,7 +116,7 @@ footer {
     background: chocolate;
     color: #fff;
     padding: 10px;  
-    height: 100px;
+    height: 130px;
 }
 
 footer a { color: cornsilk; }
