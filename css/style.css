@@ -17,19 +17,26 @@ body {
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
-    color: #000;
+    color: rgb(0, 53, 100);
+    background-color: blanchedalmond;
+    background-image: url("images/asfalt-light.png");
+
 }
 
 main { 
     display: block;
-    padding: 30px 0;
+    padding: 30px;
 }
 
 * { outline: none !important; }
 
+a {text-decoration: dotted;}
+
 a:hover {
-    text-decoration: none;
+    text-decoration:none;
     opacity: 0.95;
+    color: goldenrod;
+
 }
 
 h1, h2, h3, h4, h5, h6, p, a, input, div, textarea, label {
