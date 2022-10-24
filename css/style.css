@@ -1,10 +1,19 @@
 /* General Settings */
 
+#top-announcement { 
+   color: black;  }
+
 #top-ad {
-    color:rgb(255, 255, 255);
+    position: relative; 
+
+    top: 0; right: 0; left: 0; 
+    color:oldlace;
+    background-color:firebrick; 
     font-family: 'Gill Sans';
-    padding: 20px 1px 30px;
-    font-weight:bold;
+    font-weight:lighter;
+    text-align: center; 
+    padding-top: 3px; 
+    padding-bottom: 3px; 
     float:inline-start
     
 }
@@ -13,15 +22,19 @@ html {
     -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-body {
-    font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
-    color: rgb(0, 53, 100);
-    background-color: blanchedalmond;
-    background-image: url("images/asfalt-light.png");
 
-}
+
+
+#coffeehouse { 
+    background-image: url("https://otherfiles-cbm.s3-us-west-2.amazonaws.com/CoffeeShopImage.jpg"); 
+    background-size: cover; 
+    width: 100%; 
+    height: 250px; 
+    animation-name: background-pan; 
+    animation-duration: 10s; 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite; 
+    animation-direction: alternate; } @keyframes background-pan { from { background-position: left; } to { background-position: right; } }
 
 main { 
     display: block;
@@ -78,8 +91,10 @@ img { border-style: none; }
 
 header { 
     background: Sienna; 
-    padding: 10px;
-}
+    padding: 10px;}
+
+    
+
 
 .title-header .title {
     display: inline-block;
@@ -96,10 +111,9 @@ header {
     vertical-align: left;
 }
 
-.navigation-bar { background: chocolate;
+navigation-bar { background: chocolate;
 width:max-content;
 }
-
 nav li {float:left;
 background: chocolate;
 
@@ -120,7 +134,7 @@ nav li a {
 /* Footer */
 
 footer {
-    background: chocolate;
+    background-image: linear-gradient( chocolate, sienna);
     color: #fff;
     padding: 10px;  
     height: 130px;
@@ -153,3 +167,98 @@ footer a { color: cornsilk; }
 }
 
 /* End Page Content */
+
+
+
+
+/* FIX THESE */
+
+
+/* Sprites */ 
+.sprite-palette { 
+    display: block; 
+    width: 40px; 
+    height: 40px; 
+    padding: 0; 
+    border: none; 
+    background: url('../images/sprite.png') 0 0; } 
+
+.sprite-guitar { 
+    display: block; 
+    width: 40px; 
+    height: 40px; 
+    padding: 0; 
+    border: none; 
+    background: url('../images/sprite.png') -40px 0; } 
+    
+.sprite-mask { 
+    display: block; 
+    width: 40px; 
+    height: 40px; 
+    padding: 0; 
+    border: none; 
+    background: url('../images/sprite.png') -80px 0; } 
+
+.sprite-controller { 
+    display: block; 
+    width: 40px; 
+    height: 40px; 
+    padding: 0; 
+    border: none; 
+    background: url('../images/sprite.png') -120px 0; } 
+
+.sprite-mic { 
+    display: block; 
+    width: 40px; 
+    height: 40px; 
+    padding: 0; 
+    border: none;
+    background: url('../images/sprite.png') -160px 0; } 
+    
+.sprite-quill { 
+    display: block; 
+    width: 40px; 
+    height: 40px; 
+    padding: 0; 
+    border: none; 
+    background: url('../images/sprite.png') -200px 0; } 
+
+.sprite-cup { 
+        display: block; 
+        width: 40px; 
+        height: 40px; 
+        padding: 0; 
+        border: none; 
+        background: url('../images/sprite.png') -240px 0; } 
+        
+.sprite-utensils { 
+    display: block; 
+    width: 40px; 
+    height: 40px; 
+    padding: 0; 
+    border: none; 
+    background: url('../images/sprite.png') -280px 0; } 
+    
+.sprite-milk { 
+    display: block; 
+    width: 40px; 
+    height: 40px; 
+    padding: 0; 
+    border: none; 
+    background: url('../images/sprite.png') -320px 0; }
+
+
+   
+body {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    color: rgb(0, 53, 100);
+    background-color:blanchedalmond;
+    background-image: url("https://www.transparenttextures.com/patterns/textured-stripes.png");
+ 
+
+}
+/* 
+
+

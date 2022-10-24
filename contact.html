@@ -7,32 +7,43 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<header>
-    <div class="container">
-	<p>This page is under construction
-        <div class="title-header">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/logo.png" alt="Logo">
-                    <img src="images/coffee-cup-icon.png" alt="Logo">
-                </a>
-            </div>
-            <div class="title">ClydeBank Coffee Shop</div>
+    <header>
+        <div class="container">
+            <div id="top-ad">THIS MONTH ONLY: Free Delivery on Orders $15 or More! </div>
+           <br> 
+            <div class="title-header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Logo">
+                        <img src="images/coffee-cup-icon.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="title">ClydeBank Coffee Shop</div>
+                </div>
         </div>
-    </div>
-</header>
-<nav>
-    <div class="container">
-        <ul>
-            <li class="active"><a href="index.html">Menu</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
-</nav>
+        <nav>
+            <div class="navigation-bar">
+               <ul>
+                   <li class="active"><a href="index.html">Menu</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="events.html">Events</a></li>
+                   <li><a href="contact.html">Contact</a></li>
+               </ul>
+           </div>
+       </nav>
+    </header>
+
 <main>
     <div class="container">
+        <h1>Contact Us</h1> 
+        <form action="contact.html" method="POST"> 
+        <label for="name">Name</label><br> <input type="text" name="name" required>
+        <br><br> 
+        <label for="email">Email</label><br> <input type="email" name="email" required>
+        <br><br> 
+        <label for="message">Message</label><br> <textarea name="message" rows="5" cols="60" maxlength="2000" required></textarea>
+        <br><br> 
+        <input type="submit" name="submit" value="Send Message">
 
     </div>
 </main>
