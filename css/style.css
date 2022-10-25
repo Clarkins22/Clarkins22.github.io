@@ -1,11 +1,7 @@
 /* General Settings */
 
-#top-announcement { 
-   color: black;  }
-
 #top-ad {
     position: relative; 
-
     top: 0; right: 0; left: 0; 
     color:oldlace;
     background-color:firebrick; 
@@ -137,7 +133,8 @@ footer {
     background-image: linear-gradient( chocolate, sienna);
     color: #fff;
     padding: 10px;  
-    height: 130px;
+    height: 140px;
+    width: auto;
 }
 
 footer a { color: cornsilk; }
